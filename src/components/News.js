@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 
 const News = (props) => {
-    const {title,description,urlToImage}=props.news;
+    const {title,description,urlToImage} = props.news;
   return (
     <div>
         <Col>
